@@ -1,0 +1,8 @@
+body {
+  height: 100vh;
+  user-select: none;
+}
+
+.hoverable:hover {
+  background-color: #eeeeee;
+}
