@@ -1,10 +1,10 @@
 {
-  "name": "debugtron",
-  "productName": "Debugtron",
-  "version": "0.5.0",
+  "name": "autoupdater-test",
+  "productName": "auto-updater-test",
+  "version": "0.0.1",
   "description": "Debug in-production Electron based App",
   "main": ".webpack/main",
-  "repository": "bytedance/debugtron",
+  "repository": "santoshgamitronics/auto-updater-test",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -14,12 +14,12 @@
     "lint-fix": "npx prettier --write src/**/*.{ts,tsx,js,jsx}"
   },
   "keywords": [],
-  "author": "Rongjian Zhang <pd4d10@gmail.com>",
+  "author": "Santosh Kumar M <santosh@gamitronics.com>",
   "license": "MIT",
   "config": {
     "forge": {
       "packagerConfig": {
-        "appBundleId": "io.github.pd4d10.debugtron",
+        "appBundleId": "io.github.sample",
         "icon": "assets/icon"
       },
       "makers": [
@@ -60,8 +60,8 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "bytedance",
-              "name": "debugtron"
+              "owner": "santoshgamitronics",
+              "name": "auto-updater-test"
             }
           }
         }
